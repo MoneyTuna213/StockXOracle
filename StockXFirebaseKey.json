@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "stockx-predict",
+  "private_key_id": "b7494aa427fab86d880977c13ea9208635507103",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCtamZm5OkcLkPi\nA4CESjXI7geaDhucZEV9Y/9JLO0IPbzBO6Jq/jxQDTYgM3wGGvJN/ipKXX2e7aae\nwBb9m99jjfArRFYyHzxPeEdpKJhmY6e7rdgR/yrZGkmrlWX3isJSZydU6Le9KgVV\nthvk1T4+yqejYAv2Po+e0qLszZyyjvyY/YgLKruAobCiuCSp2EM8mK/nqKnnhA0t\naxI7BkJZHQfvT6taUVDorcMS4uIlJX6TkQpEchyCg35Zd6Bn6+Fc5hZ7xitkb5Ay\nZ/+dUQrUAGCGoE2aULqoxpN7PBwMZTLyqL5SNsmmtkkE+yNq2roGLY/ph4pWT3KO\n44b8aOg1AgMBAAECggEAFiC2CVobPqvOoKfWvcqkW0u4L5muP0HyNgJNAF7ZrgwG\nqld8LY/cTVCqP+ih4juNAJO2fL+6OE3VzXrwVBMQKaliZHr3TrT6op9T6WCzNZlw\nvTt9DyrSolo+3USWesQ7cH1WIPkC/QHAJYQzwfrN0wBT7L5kOFsaQ2dYP8QqwwPS\n5Z4eYR+DwMY4xTgXBEXLTz7S1h79pjLuuYhNgl2rYPGU03N9s6xNkfwUQvR3rzDH\n/ehmgOKjM5YePKj4ZLxP3LvQ95WbxQJG5/78TUMWc/9sIYPFXimbyqcjrzbjwoyo\nxSwhzQUwcVI4BcgJg7VV/MiCEoepiJC0X43RctPj0QKBgQDhb+1uGbzmuefjFZVC\nMwAX5NIRkt8aGthA6QrPuHYPLAxa614/YsXMNdfcjTuOB9URQfNxucRTeMDzx3lC\nFHtVY5x3bpjOs/G3Ck7rbfr+NjXniS5DO/ICIIKCc5+D2JCuhmUnv6NHL5Hdp2dp\nBZEQ6oR+Cb+L3x8ANcVBBfrUeQKBgQDE7P//wv4ZGGbTTu9qzYPjvPpWHf7hi5nY\nh1NTGNYYzLJ03tSgLBOVxZDoKKj6Nwuajw8Ul3CqAVD5FuiGSOMgsIvE/8ghPFRm\nq+epG96nDjxZNz7cAet+1ZiX9dqd8blibrdOOs84nI/Aur7WVnHw7BKocTskbxHO\nGiwgIs7qnQKBgQDIFQUPsPw9c0Zh/6fnh0hP7KCdRFOK4cSJZ8xWrArsUFXu4/NU\nIqAXLLqXXyo6Vq0+keA1UYDz7LqkIqh2g6MrGCuovJoW6xJfOGDvBz+7G/Yft1s+\nBRg31w6+JUywQie3HkTtUGLkLU4zAf7/8RbdgqdxDcnZpH/pOdAGc/45UQKBgCjr\nXl6U9Bve2C78bf9xaQB/mj0eyoGvcm5t4ECaHpLUphhm3SPTRNaQUQYMvOARZBXf\nuDB9L2oEEAFSY0rUBm4agVCUHc/aK2eSPPcE1YU9Dgkz05n/xCF83NJmweCkA/OS\nMgDNc5W94pkXtOPw3ohDZbUeoj113utGwPiEgx55AoGAaMkugiC47u65LSe6ccAr\nTu9h/2vIJnFmYqWdIK/ZCKkCQDqbB6z4LOnDTDgzOCyYhs8cm7ouaRZCy7MBgwvD\nloMnpumh+Yl7F1/CVdmsQI5X3VdkJf9qqOCkNQ82DUYqBzHjHTGUEsw94R/332cJ\nicn9yZMdt0O9kChpxdp6UVM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "admin-863@stockx-predict.iam.gserviceaccount.com",
+  "client_id": "114461481419380709524",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/admin-863%40stockx-predict.iam.gserviceaccount.com"
+}
