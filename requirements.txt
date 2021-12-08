@@ -1,288 +1,288 @@
-alabaster 
-anaconda-client
-anaconda-navigator 
-anaconda-project 
-argh 
-argon2-cffi 
-asn1crypto 
-astroid 
-astropy 
-async-generator 
-atomicwrites 
-attrs 
-autopep8 
-Babel 
-backcall 
-backports.functools-lru-cache 
-backports.shutil-get-terminal-size 
-backports.tempfile 
-backports.weakref 
-bcrypt 
-beautifulsoup4 
-bitarray 
-bkcharts 
-bleach 
-bokeh 
-boto 
-Bottleneck 
-Brotli 
-brotlipy 
+# alabaster 
+# anaconda-client
+# anaconda-navigator 
+# anaconda-project 
+# argh 
+# argon2-cffi 
+# asn1crypto 
+# astroid 
+# astropy 
+# async-generator 
+# atomicwrites 
+# attrs 
+# autopep8 
+# Babel 
+# backcall 
+# backports.functools-lru-cache 
+# backports.shutil-get-terminal-size 
+# backports.tempfile 
+# backports.weakref 
+# bcrypt 
+# beautifulsoup4 
+# bitarray 
+# bkcharts 
+# bleach 
+# bokeh 
+# boto 
+# Bottleneck 
+# Brotli 
+# brotlipy 
 bs4 
-CacheControl 
-cachetools 
-certifi 
-cffi 
-chardet 
-click 
-cloudpickle 
-clyent 
-colorama 
-comtypes 
-conda 
-conda-build 
-conda-package-handling 
-conda-verify 
-contextlib2 
-cryptography 
-cycler 
-Cython 
-cytoolz 
+# CacheControl 
+# cachetools 
+# certifi 
+# cffi 
+# chardet 
+# click 
+# cloudpickle 
+# clyent 
+# colorama 
+# comtypes 
+# conda 
+# conda-build 
+# conda-package-handling 
+# conda-verify 
+# contextlib2 
+# cryptography 
+# cycler 
+# Cython 
+# cytoolz 
 dash 
 dash-core-components 
 dash-html-components 
-dash-table 
-dask 
-decorator 
-deep-daze 
-defusedxml 
-diff-match-patch 
-distributed 
-docutils 
-einops 
-entrypoints 
-et-xmlfile 
-fastcache 
-filelock 
-fire 
-firebase-admin 
-flake8 
-Flask 
-Flask-Compress 
-fsspec 
-ftfy 
-future 
-gevent 
-glob2 
-google-api-core 
-google-api-python-client 
-google-auth 
-google-auth-httplib2 
-google-cloud-core 
-google-cloud-firestore 
-google-cloud-storage 
-google-crc32c 
-google-resumable-media 
-googleapis-common-protos 
-greenlet 
-grpcio 
-grpcio-status 
-gunicorn 
-h5py 
-HeapDict 
-html5lib 
-httplib2 
-idna 
-imageio 
-imagesize 
-importlib-metadata 
-iniconfig 
-intervaltree 
-ipykernel 
-ipython 
-ipython-genutils 
-ipywidgets 
-iso8601 
-isort 
-itsdangerous 
-jdcal 
-jedi 
-Jinja2 
-joblib 
+# dash-table 
+# dask 
+# decorator 
+# deep-daze 
+# defusedxml 
+# diff-match-patch 
+# distributed 
+# docutils 
+# einops 
+# entrypoints 
+# et-xmlfile 
+# fastcache 
+# filelock 
+# fire 
+# firebase-admin 
+# flake8 
+# Flask 
+# Flask-Compress 
+# fsspec 
+# ftfy 
+# future 
+# gevent 
+# glob2 
+# google-api-core 
+# google-api-python-client 
+# google-auth 
+# google-auth-httplib2 
+# google-cloud-core 
+# google-cloud-firestore 
+# google-cloud-storage 
+# google-crc32c 
+# google-resumable-media 
+# googleapis-common-protos 
+# greenlet 
+# grpcio 
+# grpcio-status 
+# gunicorn 
+# h5py 
+# HeapDict 
+# html5lib 
+# httplib2 
+# idna 
+# imageio 
+# imagesize 
+# importlib-metadata 
+# iniconfig 
+# intervaltree 
+# ipykernel 
+# ipython 
+# ipython-genutils 
+# ipywidgets 
+# iso8601 
+# isort 
+# itsdangerous 
+# jdcal 
+# jedi 
+# Jinja2 
+# joblib 
 json5 
-jsonschema 
-jupyter 
-jupyter-client 
-jupyter-console 
-jupyter-core 
-jupyterlab 
-jupyterlab-pygments 
-jupyterlab-server 
-keyring 
-kiwisolver 
-lazy-object-proxy 
-libarchive-c 
-llvmlite 
-locket 
-lxml 
-MarkupSafe 
-matplotlib 
-mccabe 
-menuinst 
-mistune 
-mkl-fft 
-mkl-random 
-mkl-service 
-mock 
-more-itertools 
-mpmath 
-msgpack 
-multipledispatch 
-navigator-updater 
-nbclient 
-nbconvert 
-nbformat 
-nest-asyncio 
-networkx 
-nltk 
-nose 
-notebook 
-numba 
-numexpr 
-numpy 
-numpydoc 
-olefile 
-openpyxl 
-packaging 
+# jsonschema 
+# jupyter 
+# jupyter-client 
+# jupyter-console 
+# jupyter-core 
+# jupyterlab 
+# jupyterlab-pygments 
+# jupyterlab-server 
+# keyring 
+# kiwisolver 
+# lazy-object-proxy 
+# libarchive-c 
+# llvmlite 
+# locket 
+# lxml 
+# MarkupSafe 
+# matplotlib 
+# mccabe 
+# menuinst 
+# mistune 
+# mkl-fft 
+# mkl-random 
+# mkl-service 
+# mock 
+# more-itertools 
+# mpmath 
+# msgpack 
+# multipledispatch 
+# navigator-updater 
+# nbclient 
+# nbconvert 
+# nbformat 
+# nest-asyncio 
+# networkx 
+# nltk 
+# nose 
+# notebook 
+# numba 
+# numexpr 
+# numpy 
+# numpydoc 
+# olefile 
+# openpyxl 
+# packaging 
 pandas 
-pandocfilters 
-paramiko 
-parso 
-partd 
-path 
-pathlib2 
-pathtools 
-patsy 
-pep8 
-pexpect 
-pickleshare 
-Pillow 
-pip 
-pkginfo 
-plotly 
-pluggy 
-ply 
-prometheus-client 
-prompt-toolkit 
-proto-plus 
-protobuf 
-psutil 
-py 
-pyasn1 
-pyasn1-modules 
-pycodestyle 
-pycosat 
-pycparser 
-pycurl 
-pydocstyle 
-pyflakes 
-Pygments 
-pylint 
-PyNaCl 
-pyodbc 
-pyOpenSSL 
-pyparsing 
-pyreadline 
-pyrsistent 
-PySocks 
-pytest 
-python-dateutil 
-python-jsonrpc-server 
-python-language-server 
-pytorch-ranger 
-pytz 
-PyWavelets 
-pywin32 
-pywin32-ctypes 
-pywinpty 
-PyYAML 
-pyzmq 
-QDarkStyle 
-QtAwesome 
-qtconsole 
-QtPy 
-regex 
+# pandocfilters 
+# paramiko 
+# parso 
+# partd 
+# path 
+# pathlib2 
+# pathtools 
+# patsy 
+# pep8 
+# pexpect 
+# pickleshare 
+# Pillow 
+# pip 
+# pkginfo 
+# plotly 
+# pluggy 
+# ply 
+# prometheus-client 
+# prompt-toolkit 
+# proto-plus 
+# protobuf 
+# psutil 
+# py 
+# pyasn1 
+# pyasn1-modules 
+# pycodestyle 
+# pycosat 
+# pycparser 
+# pycurl 
+# pydocstyle 
+# pyflakes 
+# Pygments 
+# pylint 
+# PyNaCl 
+# pyodbc 
+# pyOpenSSL 
+# pyparsing 
+# pyreadline 
+# pyrsistent 
+# PySocks 
+# pytest 
+# python-dateutil 
+# python-jsonrpc-server 
+# python-language-server 
+# pytorch-ranger 
+# pytz 
+# PyWavelets 
+# pywin32 
+# pywin32-ctypes 
+# pywinpty 
+# PyYAML 
+# pyzmq 
+# QDarkStyle 
+# QtAwesome 
+# qtconsole 
+# QtPy 
+# regex 
 requests 
-rope 
-rsa 
-Rtree 
-ruamel-yaml 
-scikit-image 
-scikit-learn 
-scipy 
-seaborn 
-Send2Trash 
-setuptools 
-simplegeneric 
-singledispatch 
-sip 
-siren-pytorch 
-six 
+# rope 
+# rsa 
+# Rtree 
+# ruamel-yaml 
+# scikit-image 
+# scikit-learn 
+# scipy 
+# seaborn 
+# Send2Trash 
+# setuptools 
+# simplegeneric 
+# singledispatch 
+# sip 
+# siren-pytorch 
+# six 
 sklearn 
-snowballstemmer 
-sortedcollections 
-sortedcontainers 
-soupsieve 
-Sphinx 
-sphinxcontrib-applehelp 
-sphinxcontrib-devhelp 
-sphinxcontrib-htmlhelp 
-sphinxcontrib-jsmath 
-sphinxcontrib-qthelp 
-sphinxcontrib-serializinghtml 
-sphinxcontrib-websupport 
-spyder 
-spyder-kernels 
-SQLAlchemy 
-statsmodels 
-sympy 
-tables 
-tblib 
-tenacity 
-termcolor 
-terminado 
-testpath 
-threadpoolctl 
-tifffile 
-toml 
-toolz 
-torch 
-torch-optimizer 
-torchvision 
-tornado 
-tqdm 
-traitlets 
-typing-extensions 
-ujson 
-unicodecsv 
-uritemplate 
+# snowballstemmer 
+# sortedcollections 
+# sortedcontainers 
+# soupsieve 
+# Sphinx 
+# sphinxcontrib-applehelp 
+# sphinxcontrib-devhelp 
+# sphinxcontrib-htmlhelp 
+# sphinxcontrib-jsmath 
+# sphinxcontrib-qthelp 
+# sphinxcontrib-serializinghtml 
+# sphinxcontrib-websupport 
+# spyder 
+# spyder-kernels 
+# SQLAlchemy 
+# statsmodels 
+# sympy 
+# tables 
+# tblib 
+# tenacity 
+# termcolor 
+# terminado 
+# testpath 
+# threadpoolctl 
+# tifffile 
+# toml 
+# toolz 
+# torch 
+# torch-optimizer 
+# torchvision 
+# tornado 
+# tqdm 
+# traitlets 
+# typing-extensions 
+# ujson 
+# unicodecsv 
+# uritemplate 
 urllib3 
-watchdog 
-wcwidth 
-webencodings 
-Werkzeug 
-wheel 
-widgetsnbextension 
-win-inet-pton 
-win-unicode-console 
-wincertstore 
-wrapt 
-xlrd 
-XlsxWriter 
-xlwings 
-xlwt 
-xmltodict 
-yapf 
-zict 
-zipp 
-zope.event 
-zope.interface 
+# watchdog 
+# wcwidth 
+# webencodings 
+# Werkzeug 
+# wheel 
+# widgetsnbextension 
+# win-inet-pton 
+# win-unicode-console 
+# wincertstore 
+# wrapt 
+# xlrd 
+# XlsxWriter 
+# xlwings 
+# xlwt 
+# xmltodict 
+# yapf 
+# zict 
+# zipp 
+# zope.event 
+# zope.interface 
