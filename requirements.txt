@@ -63,10 +63,10 @@ dash-html-components
 # et-xmlfile 
 # fastcache 
 # filelock 
-# fire 
-# firebase-admin 
+#fire 
+firebase-admin 
 # flake8 
-# Flask 
+Flask 
 # Flask-Compress 
 # fsspec 
 # ftfy 
@@ -74,19 +74,19 @@ dash-html-components
 # gevent 
 # glob2 
 # google-api-core 
-# google-api-python-client 
+google-api-python-client 
 # google-auth 
 # google-auth-httplib2 
-# google-cloud-core 
-# google-cloud-firestore 
-# google-cloud-storage 
+google-cloud-core 
+google-cloud-firestore 
+google-cloud-storage 
 # google-crc32c 
 # google-resumable-media 
 # googleapis-common-protos 
 # greenlet 
 # grpcio 
 # grpcio-status 
-# gunicorn 
+gunicorn 
 # h5py 
 # HeapDict 
 # html5lib 
