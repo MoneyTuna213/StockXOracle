@@ -20,23 +20,42 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 app.layout = html.Div([
-    html.Div("PredictX", style={
-        'font-family':'playfair-display',
+    html.Div("stockx oracle", style={
+        'font-family':'Courier New',
         'font-weight':'bold',
-        'font-size':'150px'
+        'font-size':'150px',
+        'text-align': 'center',
+        'padding-top': '275px'
     }),
-    html.Div("Created By Milo Schreckinger", style={
-        'padding-bottom':'3000px',
-        'font-family':'playfair-display',
+    html.Div("created by milo", style={
+        'font-family':'Courier New',
+        'padding-bottom':'100px',
         'font-weight':'bold',
-        'font-size':'150px'
+        'font-size':'75px',
+        'text-align': 'center'
     }),
-    dcc.Input(
+        dcc.Input(
         id="userinput",
-        placeholder="Type Link Here..."
-    ),
-    html.Button("Predict", id="predictbutton"),
-    html.Div(id="predictoutput")    
+        placeholder="Type Link Here...", 
+        style={'right':'-760px',
+        #'top':'250px',
+        #'background':'transparent',
+        'color':'black',
+        'position':'relative'
+        }
+        ),
+    html.Button("Predict", id="predictbutton", 
+    style={
+        'right':'-780px',
+        'position':'relative',
+        #'right':'-410px',
+        #'bottom':'-110px' 
+    }),
+    html.Div(id="predictoutput", style={
+        'font-size':'150px',
+        'padding-left':'35px',
+        'padding-top':'1250px'
+    }),
 ],
 style={ 
 'background-image': 'url("https://th.bing.com/th/id/OIP.bget4M_o7J-E_S1LP6f-YAHaEo?pid=ImgDet&rs=1")',
