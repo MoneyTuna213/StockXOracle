@@ -143,5 +143,4 @@ def predictstockxoutput(url, Input,):
         return "THE PRICE WILL BE $" + str(round(prediction[0][0]))
 
 if __name__ == '__main__':
-    #app.run_server(debug=True)
-    app.run_server(port=80)
+    app.run_server(debug=True)
