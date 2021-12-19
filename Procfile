@@ -1,1 +1,1 @@
-gunicorn app:server
+python app.py
