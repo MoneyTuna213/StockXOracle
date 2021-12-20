@@ -61,9 +61,9 @@ app.layout = html.Div([
     }),
     html.Div(id="predictoutput", style={
         'font-size':'16px',
-        'color':'white',
+        'color':'green',
         'font-family':'Courier New',
-        #'font-weight':'bold',
+        'font-weight':'bold',
         'text-align':'center'
     }),
 
