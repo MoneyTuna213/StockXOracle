@@ -39,19 +39,24 @@ app.layout = html.Div([
         dcc.Input(
         id="userinput",
         placeholder="Type Link Here...", 
-        style={'right':'-760px',
+        style={'left':'-75px',
         #'top':'250px',
         #'background':'transparent',
+        'display':'block',
+        'margin-left':'auto',
+        'margin-right':'auto',
         'color':'black',
         'position':'relative'
         }
         ),
     html.Button("Predict", id="predictbutton", 
     style={
-        'right':'-780px',
         'position':'relative',
-        #'right':'-410px',
-        #'bottom':'-110px',
+        'display':'block',
+        'margin-left':'auto',
+        'margin-right':'auto',
+        'right':'-100px',
+        'top':'-38px',
         'color':'white'
     }),
     html.Div(id="predictoutput", style={
@@ -59,7 +64,7 @@ app.layout = html.Div([
         'color':'white',
         'font-family':'Courier New',
         #'font-weight':'bold',
-        'padding-left':'830px'
+        'text-align':'center'
     }),
 
     html.Div(id="footer", style={
