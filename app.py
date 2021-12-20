@@ -25,14 +25,16 @@ app.layout = html.Div([
         'font-weight':'bold',
         'font-size':'150px',
         'text-align': 'center',
-        'padding-top': '275px'
+        'padding-top': '275px',
+        'color':'white'
     }),
     html.Div("created by milo", style={
         'font-family':'Courier New',
         'padding-bottom':'100px',
         'font-weight':'bold',
         'font-size':'75px',
-        'text-align': 'center'
+        'text-align': 'center',
+        'color':'white'
     }),
         dcc.Input(
         id="userinput",
@@ -49,17 +51,24 @@ app.layout = html.Div([
         'right':'-780px',
         'position':'relative',
         #'right':'-410px',
-        #'bottom':'-110px' 
+        #'bottom':'-110px',
+        'color':'white'
     }),
     html.Div(id="predictoutput", style={
-        'font-size':'150px',
-        'padding-left':'35px',
-        'padding-top':'1250px'
+        'font-size':'16px',
+        'color':'white',
+        'font-family':'Courier New',
+        #'font-weight':'bold',
+        'padding-left':'830px'
+    }),
+
+    html.Div(id="footer", style={
+        'padding-top':'300px'
     }),
 ],
 style={ 
-'background-image': 'url("https://th.bing.com/th/id/OIP.bget4M_o7J-E_S1LP6f-YAHaEo?pid=ImgDet&rs=1")',
-'background-size':'30720px 19200px'
+'background-image': 'url("https://media.giphy.com/media/hVJWTKAi6Xfiw/giphy.gif")',
+'background-size':'1900px 1346px'
 })
 
 def pipeline(data) :
@@ -140,7 +149,7 @@ def predictstockxoutput(url, Input,):
         data['date'] = newdatearray
         data['size'] = sizearray
         prediction=pipeline(data)
-        return "THE PRICE WILL BE $" + str(round(prediction[0][0]))
+        return "the price will be $" + str(round(prediction[0][0])) + " :)"
 
 if __name__ == '__main__':
     app.run_server(debug=True)
