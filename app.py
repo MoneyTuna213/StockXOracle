@@ -73,7 +73,9 @@ app.layout = html.Div([
 ],
 style={ 
 'background-image': 'url("https://media.giphy.com/media/hVJWTKAi6Xfiw/giphy.gif")',
-'background-size':'1900px 1346px'
+#'background-size':'1900px 1346px'
+'background-size': '100% 100%',
+'background-repeat':'no-repeat'
 })
 
 def pipeline(data) :
