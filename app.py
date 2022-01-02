@@ -21,7 +21,7 @@ server = app.server
 
 app.layout = html.Div([
     html.Div("stockx oracle", style={
-        'font-family':'Courier New',
+        'font-family':'Sans-Serif',
         'font-weight':'bold',
         'font-size':'150px',
         'text-align': 'center',
@@ -29,7 +29,7 @@ app.layout = html.Div([
         'color':'white'
     }),
     html.Div("created by milo", style={
-        'font-family':'Courier New',
+        'font-family':'Sans-Serif',
         'padding-bottom':'100px',
         'font-weight':'bold',
         'font-size':'75px',
