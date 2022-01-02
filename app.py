@@ -68,14 +68,14 @@ app.layout = html.Div([
     }),
 
     html.Div(id="footer", style={
-        'padding-top':'300px'
+        'padding-top':'1100px'
     }),
 ],
 style={ 
 'background-image': 'url("https://media.giphy.com/media/hVJWTKAi6Xfiw/giphy.gif")',
 #'background-size':'1900px 1346px'
 'background-size': '100% 100%',
-'background-repeat':'no-repeat'
+'background-repeat':'repeat'
 })
 
 def pipeline(data) :
