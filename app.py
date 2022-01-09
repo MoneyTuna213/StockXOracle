@@ -39,14 +39,16 @@ app.layout = html.Div([
         dcc.Input(
         id="userinput",
         placeholder="Type Link Here...", 
-        style={'left':'-75px',
+        style={'left':'-75px','min-width':'5%', 'min-height':'5%',
         #'top':'250px',
         #'background':'transparent',
+        'position':'relative',
         'display':'block',
         'margin-left':'auto',
         'margin-right':'auto',
         'color':'black',
-        'position':'relative'
+        'position':'relative',
+        'height':'50px'
         }
         ),
     html.Button("Predict", id="predictbutton", 
@@ -56,8 +58,11 @@ app.layout = html.Div([
         'margin-left':'auto',
         'margin-right':'auto',
         'right':'-100px',
-        'top':'-38px',
-        'color':'white'
+        'top':'-50px',
+        'color':'white',
+        'min-width':'5%', 
+        'min-height':'5%',
+        'height':'50px'
     }),
     html.Div(id="predictoutput", style={
         'font-size':'16px',
@@ -66,15 +71,24 @@ app.layout = html.Div([
         'font-weight':'bold',
         'text-align':'center'
     }),
-
+    html.Img(src="https://i.ibb.co/VMd9zd9/rulesforstockxoracle-removebg.png", style={
+        'display':'block',
+        'margin-left':'auto',
+        'margin-right':'auto',
+        'min-height':'60%',
+        'min-width':'60%',
+        'opacity':'60%'
+    }),
     html.Div(id="footer", style={
-        'padding-top':'1100px'
+        'padding-top':'900px'
     }),
 ],
 style={ 
 'background-image': 'url("https://media.giphy.com/media/hVJWTKAi6Xfiw/giphy.gif")',
 #'background-size':'1900px 1346px'
 'background-size': '100% 100%',
+'min-height':'100%',
+'min-width':'100%',
 'background-repeat':'repeat'
 })
 
