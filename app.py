@@ -20,6 +20,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 app.layout = html.Div([
+    html.Link(rel="icon", type="image/x-icon", href="https://i.ibb.co/MVMYn7N/Sneaker-Clip-Art-44759.jpg"),
     html.Div("stockx oracle", style={
         'font-family':'Sans-Serif',
         'font-weight':'bold',
