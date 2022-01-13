@@ -23,18 +23,21 @@ app.layout = html.Div([
     html.Div("stockx oracle", style={
         'font-family':'Sans-Serif',
         'font-weight':'bold',
-        'font-size':'150px',
+        'font-size':'175px',
         'text-align': 'center',
         'padding-top': '275px',
-        'color':'white'
+        'color':'red'
     }),
+    html.Link(rel="preconnect", href="https://fonts.googleapis.com"),
+    html.Link(rel="preconnect", href="https://fonts.gstatic.com", crossOrigin=""),
+    html.Link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap"),
     html.Div("created by milo", style={
-        'font-family':'Sans-Serif',
+        'font-family':'UnifrakturMaguntia',
         'padding-bottom':'100px',
         'font-weight':'bold',
-        'font-size':'75px',
+        'font-size':'100px',
         'text-align': 'center',
-        'color':'white'
+        'color':'red'
     }),
         dcc.Input(
         id="userinput",
@@ -79,8 +82,21 @@ app.layout = html.Div([
         'min-width':'60%',
         'opacity':'60%'
     }),
+        html.A("email right here", href="mailto:milo@stockxoracle.com", style={
+            'font-family':'UnifrakturMaguntia',
+            'font-weight':'bold',
+            'color':'red',
+            'position':'relative',
+            'display':'block',
+            'line-height':'1',
+            #'margin-right':'auto',
+            #'padding-left':'620px',
+            'font-size':'100px',
+            #'opacity':'0%'
+            'text-align':'center'
+        }),
     html.Div(id="footer", style={
-        'padding-top':'900px'
+        'padding-top':'600px'
     }),
 ],
 style={ 
