@@ -20,6 +20,7 @@ app.title="StockXOracle"
 server = app.server
 
 app.layout = html.Div([
+    html.Script(src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4086293914879051", crossOrigin="annonymous"),
     html.Div("stockx oracle", style={
         'font-family':'Sans-Serif',
         'font-weight':'bold',
